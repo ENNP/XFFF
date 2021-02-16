@@ -22,6 +22,9 @@ while 1:
 
 		rsp_200 = '''HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nServer: XFFF/2.1.0\r\n\r\n'''
 
+		rsp_200_css = '''HTTP/1.1 200 OK\r\nContent-Type: text/css; charset=utf-8\r\nServer: XFFF/2.1.0\r\n\r\n'''
+
+		
 		# login error
 		rsp_200_2 = '''HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nServer: XFFF/2.1.0\r\n\r\n'''
 
@@ -68,6 +71,19 @@ while 1:
 				c.close()
 
 
+			### style ###
+                        elif data_2[1] == "style.css HTTP":
+
+
+                                f = open("../5_web/style.css","r")
+
+                                rsp_200_css += f.read()
+
+                                f.close()
+
+                                c.send(rsp_200_css)
+                                c.close()	
+				
 
 
 			### about ###

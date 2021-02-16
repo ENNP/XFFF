@@ -5,33 +5,33 @@
         <meta charset="utf-8">
         <title>XFFF{CTF CHALLANGE}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-                body {
-                        background-color: black;
-                        color: rgb(128, 255, 128);}
-                a {
-                        color: rgb(128,255,128);
-                        text-decoration: none;}
-        </style>
+<link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
-        <div align="center">
-                <br><br>
-                <h2><a href="/">|&nbsp;&nbsp;HOME&nbsp;&nbsp;</a><a href="/about">|&nbsp;&nbsp;ABOUT&nbsp;&nbsp;</a><a href="/challenge">|&nbsp;&nbsp;CHALLENGE&nbsp;&nbsp;|</a><a href="/auth">&nbsp;&nbsp;AUTH&nbsp;&nbsp;|</a><a href="/login">&nbsp;&nbsp;LOGIN&nbsp;&nbsp;|</a>
-                <br><br><br><br>
+	<div class="menu" align="center">
+		<nav>
+			<ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/challenge">CHALLENGE</a></li>
+        <li><a href="/auth" class="menu_auth">AUTH</a></li>
+        <li><a href="/login">LOGIN</a></li>
+			</ul>
+		</nav>
+	</div>
+  <div class="questions">
                 <h3>[ Card Usage history ]</h3>
                 <br><br>
-                <h3>200</h3>
+                <p>200</p>
                 <br><br>
-                <h3>You can't see the card usage history.</h3>
-                <h3>if you could see the php source code ?</h3>
+                <p>You can't see the card usage history.</p>
+                <p>if you could see the php source code ?</p>
                 <br><br>
-		<h3><pre>
+		<p><pre>
 		<?PHP
 
 			session_start();
-			if ( isset ( $_SESSION["id"] ) ) {			
+			if ( isset ( $_SESSION["id"] ) ) {
 
 				echo("2016/09/17 9999-9999-9999-9999 XFFF 통신판매업    3,200,000");
 				echo("2016/09/18 9999-9999-9999-9999 XFFF 숙박업소     15,500,000");
@@ -76,11 +76,7 @@
 			}
 
 		?>
-		</pre></h3>
+  </pre></p>
         </div>
 </body>
 </html>
-
-
-
-

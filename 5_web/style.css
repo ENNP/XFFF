@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+#main_menu {
+  text-align: center;
+}
+
+.menu ul li {
+  text-align: center;
+  display: inline-block;
+  border-left: 3px solid rgb(128, 255, 128);
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.menu .menu_auth+li {
+  border-right: 3px solid rgb(128, 255, 128);
+}
+
+.test_list ul li{
+  display: inline-block;
+  padding: 30px 30px 30px 30px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.About_link {
+  margin-top: 100px;
+}
+
+.questions {
+  text-align: center;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+body {
+  background-color: black;
+  color: rgb(128, 255, 128);
+}
+
+a {
+  color: rgb(128, 255, 128);
+  text-decoration: none;
+}
+
+input {
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(128, 255, 128);
+}
+
+button {
+  height: 28px;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(128, 255, 128);
+}
+
+iframe{
+  padding-top: 50px;
+}
