@@ -173,6 +173,3 @@
 - [Link](https://drive.google.com/file/d/1-Ia1PY--UeXX5iE0bG1mirwweYRpGUpr/view?usp=sharing)
   
 <br>  
-  
-#### ETC
-- For other inquiries, please email 172.16.3.3@gmail.com
